@@ -127,7 +127,8 @@ margin-bottom: 1opx;
         padding: 20px;
     }
     nav,
-    .teams-container
+    .teams-container,
+    .facts-card-container
     {
         flex-direction: column;
     }
@@ -135,9 +136,12 @@ margin-bottom: 1opx;
     .teams-img-container{
         grid-template-columns: 1fr;
     }
-    .teams-content{
+    .teams-content, .facts-card-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 }
 /* tablet or medium device */
